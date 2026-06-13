@@ -1,0 +1,33 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+.product-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 180px;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin: 0 0 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
